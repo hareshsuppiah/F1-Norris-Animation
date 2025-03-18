@@ -72,8 +72,8 @@ all_telemetry_df <- norris_telemetry %>%
 # dplyr::glimpse(all_telemetry_df)
 
 ###############################################################################
-## 5. (Optional) Load Track Corner Data for the Relevant Circuit
-##    We use 2024 Round 3 (Melbourne) info here because 2025 data isn’t posted yet.
+## 5. Load Track Corner Data for the Relevant Circuit
+##    Used 2024 Round 3 (Melbourne) info here because 2025 data wasn’t posted yet.
 ##    This is just to illustrate corner markers in the final animation.
 ###############################################################################
 
@@ -163,4 +163,4 @@ synced_anim <- animate(
 synced_anim
 
 # 7. (Optional) Save to file
-# anim_save("norris_qualilap.gif", animation = synced_anim)
+anim_save("norris_qualilap.gif", animation = synced_anim)
