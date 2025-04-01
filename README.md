@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project uses R and the **f1dataR** package to analyze and visualize Formula 1 telemetry data from qualifying sessions. It focuses on generating an animated visualization of Lando Norris’ qualifying lap—with speed traces and corner markers to help illustrate how telemetry data translates into on-track performance.
+This project uses R and the **f1dataR** package to analyze and visualize Formula 1 telemetry data from qualifying sessions (Lando Norris). It focuses on generating an animated visualization of Lando Norris’ qualifying lap—with speed traces and corner markers to help illustrate how telemetry data translates into on-track performance.
 
 ![Norris Quali Lap Animation](norris_qualilap.gif)
 
